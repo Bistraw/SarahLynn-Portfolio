@@ -31,7 +31,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-white/70 text-sm tracking-[0.4em] uppercase mb-6"
         >
-          Estudio de Arquitectura
+          Arquitecto
         </motion.p>
 
         <motion.h1

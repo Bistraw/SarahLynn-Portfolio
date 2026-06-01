@@ -5,12 +5,12 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <span className="text-lg font-light tracking-[0.3em] uppercase">
-            Sarah<span className="font-semibold">Lynn</span>
+            Marco<span className="font-semibold">Antonio</span>
           </span>
 
           {/* Social links */}
           <div className="flex items-center gap-6">
-            {["Instagram", "Pinterest", "LinkedIn", "Behance"].map((social) => (
+            {["Instagram", "Pinterest", "LinkedIn"].map((social) => (
               <a
                 key={social}
                 href="#"
@@ -23,7 +23,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="text-xs text-zinc-500">
-            © {new Date().getFullYear()} Sarah Lynn Arquitectura
+            © {new Date().getFullYear()} Marco Antonio Escobedo Arquitectura
           </p>
         </div>
       </div>

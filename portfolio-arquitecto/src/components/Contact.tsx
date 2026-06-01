@@ -136,7 +136,7 @@ export default function Contact() {
                 value={form.subject}
                 onChange={handleChange}
                 className="w-full border-b-2 border-zinc-200 bg-transparent py-3 text-zinc-900 focus:border-zinc-900 focus:outline-none transition-colors"
-                placeholder="¿En qué podemos ayudarte?"
+                placeholder="¿En qué puedo ayudarte?"
               />
             </div>
 
@@ -172,7 +172,7 @@ export default function Contact() {
                 animate={{ opacity: 1, y: 0 }}
                 className="text-green-600 text-sm"
               >
-                ¡Mensaje enviado correctamente! Te contactaremos pronto.
+                ¡Mensaje enviado correctamente! Te contactaré pronto.
               </motion.p>
             )}
           </motion.form>
@@ -198,8 +198,8 @@ export default function Contact() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                       </svg>
                     ),
-                    label: "Estudio",
-                    value: "Av. Revolución 1234, Col. San Ángel\nCiudad de México, CP 01000",
+                    label: "Oficina",
+                    value: "Villa Tec ll, Av. Paseo del Molino 501",
                   },
                   {
                     icon: (
@@ -208,7 +208,7 @@ export default function Contact() {
                       </svg>
                     ),
                     label: "Email",
-                    value: "hola@sarahlynn.arq",
+                    value: "marco.escobedo@gmail.com",
                   },
                   {
                     icon: (
@@ -217,7 +217,7 @@ export default function Contact() {
                       </svg>
                     ),
                     label: "Teléfono",
-                    value: "+52 (55) 1234-5678",
+                    value: "+52 (449) 352 9676",
                   },
                 ].map((item) => (
                   <div key={item.label} className="flex gap-4">

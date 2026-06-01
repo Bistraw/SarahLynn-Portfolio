@@ -26,30 +26,10 @@ const services = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-      </svg>
-    ),
-    title: "Planificación Urbana",
-    description:
-      "Intervenciones urbanas que regeneran tejidos sociales. Diseño de espacios públicos, parques lineales y planes maestros centrados en la movilidad peatonal y la sustentabilidad.",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-      </svg>
-    ),
-    title: "Consultoría Sustentable",
-    description:
-      "Asesoría en estrategias bioclimáticas, certificación LEED y eficiencia energética. Integramos sistemas pasivos de climatización, captación pluvial y materiales de bajo impacto.",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
       </svg>
     ),
-    title: "Modelado 3D y BIM",
+    title: "Modelado 3D y Renderizado",
     description:
       "Visualización fotorrealista y modelado BIM para una coordinación precisa del proyecto. Renders, recorridos virtuales y documentación técnica integrada.",
   },
@@ -77,10 +57,10 @@ export default function Services() {
           className="text-center mb-16"
         >
           <p className="text-sm tracking-[0.3em] uppercase text-zinc-400 mb-3">
-            Qué Hacemos
+            Qué Hago
           </p>
           <h2 className="text-4xl md:text-5xl font-light text-zinc-900">
-            Nuestros <span className="font-semibold">Servicios</span>
+            Mis <span className="font-semibold">Servicios</span>
           </h2>
           <p className="mt-6 text-zinc-500 max-w-2xl mx-auto leading-relaxed">
             Ofrecemos soluciones integrales de arquitectura y diseño, desde la

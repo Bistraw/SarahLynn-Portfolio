@@ -6,15 +6,15 @@ import { motion, AnimatePresence } from "framer-motion";
 const testimonials = [
   {
     quote:
-      "Sarah transformó nuestra visión en una casa que supera todo lo que imaginamos. Su atención al detalle y capacidad de escucha son excepcionales. Cada rincón cuenta una historia.",
+      "Marco transformó nuestra visión en una casa que supera todo lo que imaginamos. Su atención al detalle y capacidad de escucha son excepcionales. Cada rincón cuenta una historia.",
     author: "María Elena Rodríguez",
-    role: "Propietaria, Casa Horizonte",
+    role: "Propietaria, Casa Cavalia",
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
   },
   {
     quote:
-      "La fachada cinética de Torre Lúmina se ha convertido en un ícono del corredor corporativo. El equipo de Sarah logró un equilibrio perfecto entre estética y eficiencia energética.",
+      "La fachada cinética de Torre Lúmina se ha convertido en un ícono del corredor corporativo. Logró un equilibrio perfecto entre estética y eficiencia energética.",
     author: "Ing. Carlos Mendoza",
     role: "Director General, Grupo Inmobiliario Alfa",
     image:
@@ -30,7 +30,7 @@ const testimonials = [
   },
   {
     quote:
-      "Convertir nuestra antigua bodega en un loft fue un reto enorme. Sarah preservó la esencia industrial del espacio y lo dotó de una calidez que no creíamos posible.",
+      "Convertir nuestra antigua bodega en un loft fue un reto enorme. Marco preservó la esencia industrial del espacio y lo dotó de una calidez que no creíamos posible.",
     author: "Roberto Ávila",
     role: "Propietario, Loft San Ángel",
     image:
@@ -61,7 +61,7 @@ export default function Testimonials() {
             Testimonios
           </p>
           <h2 className="text-4xl md:text-5xl font-light">
-            Lo que dicen <span className="font-semibold">nuestros clientes</span>
+            Lo que dicen <span className="font-semibold">mis clientes</span>
           </h2>
         </motion.div>
 

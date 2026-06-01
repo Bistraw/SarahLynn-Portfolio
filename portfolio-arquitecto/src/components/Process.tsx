@@ -13,7 +13,7 @@ const steps = [
     number: "02",
     title: "Conceptualizar",
     description:
-      "Desarrollamos el concepto arquitectónico a través de bocetos, diagramas y maquetas de estudio. Definimos la volumetría, espacialidad y materialidad del proyecto.",
+      "Desarrollamos el concepto arquitectónico a través de bocetos, diagramas, maquetas de estudio o renderizados. Definimos la volumetría, espacialidad y materialidad del proyecto.",
   },
   {
     number: "03",
@@ -50,7 +50,7 @@ export default function Process() {
             Metodología
           </p>
           <h2 className="text-4xl md:text-5xl font-light text-zinc-900">
-            Nuestro <span className="font-semibold">Proceso</span>
+            El <span className="font-semibold">Proceso</span>
           </h2>
           <p className="mt-6 text-zinc-500 max-w-2xl mx-auto leading-relaxed">
             Cada proyecto sigue una metodología clara que garantiza resultados

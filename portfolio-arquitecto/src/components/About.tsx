@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 
 const specializations = [
-  { title: "Diseño Residencial", desc: "Casas que dialogan con su entorno" },
-  { title: "Arquitectura Comercial", desc: "Espacios funcionales e icónicos" },
-  { title: "Interiorismo", desc: "Atmósferas con personalidad" },
-  { title: "Urbanismo", desc: "Ciudades más humanas y verdes" },
+  { title: "Diseño Arquitectónico", desc: "Arquitectura pensada para inspirar y perdurar. Conceptos que toman forma." },
+  { title: "Interiorismo", desc: "Experiencias espaciales que combinan estética y funcionalidad."},
+  { title: "Modelado y Renderizado", desc: "Representaciones visuales que anticipan cada detalle. Ideas vistas antes de construirse."},
+  { title: "Dirección y Supervisión de Obra", desc: "Control y seguimiento para materializar cada visión."},
 ];
 
 export default function About() {
@@ -24,8 +24,8 @@ export default function About() {
           >
             <div className="aspect-[3/4] bg-zinc-200 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
-                alt="Sarah Lynn - Arquitecta"
+                src="/images/arch/marco_antonio_escobedo.jpeg"
+                alt="Marco Antonio Escobedo González - Arquitecto"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
@@ -45,7 +45,7 @@ export default function About() {
               Sobre Mí
             </p>
             <h2 className="text-4xl md:text-5xl font-light text-zinc-900 mb-8">
-              Sarah <span className="font-semibold">Lynn</span>
+              Marco <span className="font-semibold">Antonio</span>
             </h2>
 
             <div className="space-y-4 text-zinc-600 leading-relaxed mb-10">
@@ -88,7 +88,6 @@ export default function About() {
               {[
                 { value: "15+", label: "Años de experiencia" },
                 { value: "60+", label: "Proyectos realizados" },
-                { value: "8", label: "Premios obtenidos" },
               ].map((stat) => (
                 <div key={stat.label}>
                   <span className="text-3xl font-light text-zinc-900">

@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sarah Lynn | Estudio de Arquitectura",
+  title: "Marco Antonio Escobedo | Arquitecto",
   description:
     "Portafolio de arquitectura contemporánea. Diseño residencial, comercial, interiorismo y urbanismo.",
 };

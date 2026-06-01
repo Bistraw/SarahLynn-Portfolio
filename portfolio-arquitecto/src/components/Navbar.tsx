@@ -47,7 +47,7 @@ export default function Navbar() {
               isScrolled ? "text-zinc-900" : "text-white"
             }`}
           >
-            Sarah<span className="font-semibold">Lynn</span>
+            Marco<span className="font-semibold">                                    Antonio</span>
           </button>
 
           {/* Desktop links */}

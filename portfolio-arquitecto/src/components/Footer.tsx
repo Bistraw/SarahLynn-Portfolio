@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <span className="text-lg font-light tracking-[0.3em] uppercase">
-            Marco<span className="font-semibold">Antonio</span>
+            Marco<span className="font-semibold">                                    Antonio</span>
           </span>
 
           {/* Social links */}

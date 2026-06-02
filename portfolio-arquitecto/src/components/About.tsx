@@ -50,17 +50,18 @@ export default function About() {
 
             <div className="space-y-4 text-zinc-600 leading-relaxed mb-10">
               <p>
-                Arquitecta titulada por la Universidad Nacional Autónoma de
-                México con maestría en Diseño Sustentable por el Politécnico de
-                Milán. Con más de 15 años de experiencia, mi práctica se centra
-                en crear espacios que responden al clima, la cultura y las
-                necesidades de quienes los habitan.
+                Arquitecto titulado por el Instituto Tecnológico de Zacatecas, 
+                con más de 20 años de experiencia en el desarrollo, gestión y 
+                supervisión de proyectos arquitectónicos. Mi trayectoria profesional 
+                abarca desde la administración y supervisión de residencias urbanas 
+                hasta el diseño e intervención de espacios interiores, siempre con 
+                el objetivo de crear ambientes funcionales, estéticos y adaptados 
+                a las necesidades de quienes los habitan.
               </p>
               <p>
-                He tenido el privilegio de trabajar en proyectos que van desde
-                residencias privadas hasta intervenciones urbanas a gran escala,
-                siempre con un compromiso firme con la sostenibilidad y la
-                sensibilidad contextual.
+                A lo largo de mi carrera he participado en proyectos de distintas 
+                escalas, colaborando estrechamente con clientes, especialistas y 
+                equipos de construcción para garantizar resultados de alta calidad.             
               </p>
             </div>
 

@@ -40,7 +40,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-5xl md:text-7xl lg:text-8xl font-extralight text-white tracking-tight leading-tight"
         >
-          Diseñamos
+          Diseñando
           <br />
           <span className="font-semibold">espacios que inspiran</span>
         </motion.h1>
@@ -51,8 +51,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="mt-8 text-lg text-white/60 max-w-2xl mx-auto font-light leading-relaxed"
         >
-          Arquitectura contemporánea que dialoga con el entorno, respeta la
-          tradición y abraza la innovación.
+          Arquitectura a tu medida.
         </motion.p>
 
         <motion.button

@@ -12,49 +12,53 @@ export interface Project {
 
 export const categories = [
   "Todos",
-  "Residencial",
-  "Interiorismo",
+  "Diseño Arquitectónico",
+  "Modelado y Renderizado",
+  "Diseño de Interiores",
+  "Dirección y Supervisión de Obra",
 ];
 
 export const projects: Project[] = [
   {
-    id: "casa-horizonte",
-    title: "Casa Horizonte",
-    category: "Residencial",
+    id: "campanario",
+    title: "Campanario Señor de los Rayos",
+    category: "Diseño Arquitectónico",
     year: 2024,
-    location: "Valle de Bravo, México",
+    location: "Fresnillo, Zacatecas, México",
     description:
-      "Residencia contemporánea que integra espacios abiertos con vistas panorámicas al lago.",
+      "Campanario del templo Señor de los Rayos",
     details:
-      "Este proyecto residencial de 450 m² fusiona la arquitectura contemporánea con el entorno natural de Valle de Bravo. Los grandes ventanales de piso a techo permiten una conexión visual constante con el lago, mientras que los materiales locales —piedra volcánica y madera de parota— anclan la estructura al paisaje. La distribución en tres niveles escalonados sigue la topografía natural del terreno, minimizando el impacto ambiental. El diseño bioclimático incorpora ventilación cruzada, captación pluvial y paneles solares.",
+      "Margarita Maza de Juárez s/ n, Benito Juárez, 99020 Fresnillo, Zac.",
     images: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
+      "/images/campanario/fresnillo_señor_rayos1.webp",
+      "/images/campanario/fresnillo_señor_rayos2.webp",
+      "/images/campanario/fresnillo_señor_rayos3.webp",
     ],
-    area: "450 m²",
+    area: "50 m²",
   },
   {
-    id: "loft-san-angel",
-    title: "Loft San Ángel",
-    category: "Interiorismo",
+    id: "redesign",
+    title: "Terreno a Hogar",
+    category: "Diseño de Interiores",
     year: 2024,
-    location: "San Ángel, CDMX",
+    location: "Santiago de Querétaro, Querétaro",
     description:
-      "Transformación de una bodega industrial en un loft residencial de concepto abierto.",
+      "Transformación de una terreno en un loft residencial de concepto abierto.",
     details:
       "Este proyecto de interiorismo convirtió una antigua bodega textil de los años 40 en un loft contemporáneo de 220 m². Se preservaron elementos industriales originales —vigas de acero, muros de ladrillo aparente y pisos de concreto pulido— integrándolos con mobiliario minimalista y una paleta de materiales cálidos. La iluminación fue diseñada en capas: cenital natural a través de domos recuperados, iluminación arquitectónica LED y luminarias de diseño como piezas escultóricas.",
     images: [
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1200&q=80",
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&q=80",
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80",
+      "/images/renders/r1.jpeg",
+      "/images/renders/r2.jpeg",
+      "/images/renders/r4.jpeg",
+      "/images/renders/r5.jpeg",
+      "/images/renders/r6.jpeg",
     ],
-    area: "220 m²",
+    area: "100 m²",
   },
   {
     id: "casa-ceiba",
     title: "Casa Ceiba",
-    category: "Residencial",
+    category: "Dirección y Supervisión de Obra",
     year: 2022,
     location: "Mérida, Yucatán",
     description:
@@ -65,6 +69,21 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
       "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1200&q=80",
+    ],
+    area: "380 m²",
+  },
+  {
+    id: "maqueta",
+    title: "Renderizado de Maqueta",
+    category: "Modelado y Renderizado",
+    year: 2024,
+    location: "Aguascalientes, Aguascalientes",
+    description:
+      "Renderizado de maqueta basado en plano.",
+    details:
+      "Renderizado de maqueta.",
+    images: [
+      "/images/render_maqueta/r7.jpeg",
     ],
     area: "380 m²",
   },

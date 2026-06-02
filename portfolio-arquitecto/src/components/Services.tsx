@@ -11,7 +11,7 @@ const services = [
     ),
     title: "Diseño Arquitectónico",
     description:
-      "Desarrollo integral de proyectos residenciales y comerciales, desde el concepto inicial hasta los planos ejecutivos. Cada diseño responde al contexto climático, cultural y funcional del sitio.",
+      "Desarrollo integral de proyectos residenciales y comerciales, desde el concepto inicial hasta los planos ejecutivos. Cada diseño responde a las necesidades y preferencias de los clientes.",
   },
   {
     icon: (
@@ -19,7 +19,7 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
       </svg>
     ),
-    title: "Interiorismo",
+    title: "Diseño de Interiores y Remodelaciones",
     description:
       "Diseño de interiores que transforma espacios en experiencias. Selección de materiales, mobiliario, iluminación y acabados para crear atmósferas con personalidad única.",
   },
@@ -39,7 +39,7 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
       </svg>
     ),
-    title: "Supervisión de Obra",
+    title: "Dirección y Supervisión de Obra",
     description:
       "Dirección y supervisión de obra para garantizar que cada detalle del diseño se materialice con la calidad esperada. Control de tiempos, costos y estándares constructivos.",
   },
@@ -63,7 +63,7 @@ export default function Services() {
             Mis <span className="font-semibold">Servicios</span>
           </h2>
           <p className="mt-6 text-zinc-500 max-w-2xl mx-auto leading-relaxed">
-            Ofrecemos soluciones integrales de arquitectura y diseño, desde la
+            Ofrezco soluciones integrales de arquitectura y diseño, desde la
             conceptualización hasta la entrega final del proyecto.
           </p>
         </motion.div>

@@ -8,33 +8,17 @@ const testimonials = [
     quote:
       "Marco transformó nuestra visión en una casa que supera todo lo que imaginamos. Su atención al detalle y capacidad de escucha son excepcionales. Cada rincón cuenta una historia.",
     author: "María Elena Rodríguez",
-    role: "Propietaria, Casa Cavalia",
+    role: "Propietaria, Remodelación",
     image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+      "https://cdn.milenio.com/uploads/media/2022/05/10/denisse-kalafe-compositora-cancion-senora_114_0_1085_675.jpeg",
   },
   {
     quote:
-      "La fachada cinética de Torre Lúmina se ha convertido en un ícono del corredor corporativo. Logró un equilibrio perfecto entre estética y eficiencia energética.",
-    author: "Ing. Carlos Mendoza",
-    role: "Director General, Grupo Inmobiliario Alfa",
+      "El campanario es un símbolo del vecindario.",
+    author: "Carlos Arellano",
+    role: "Vecino de Iglesia Señor de los Rayos",
     image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
-  },
-  {
-    quote:
-      "El Parque Lineal Río Verde revitalizó completamente nuestro barrio. Donde antes había abandono, ahora hay familias, ciclistas y vida comunitaria. Un proyecto transformador.",
-    author: "Arq. Patricia Sánchez",
-    role: "Directora de Desarrollo Urbano, Querétaro",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
-  },
-  {
-    quote:
-      "Convertir nuestra antigua bodega en un loft fue un reto enorme. Marco preservó la esencia industrial del espacio y lo dotó de una calidez que no creíamos posible.",
-    author: "Roberto Ávila",
-    role: "Propietario, Loft San Ángel",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+      "https://i.pinimg.com/236x/6f/67/b9/6f67b991a56eb327769eb2568935c165.jpg",
   },
 ];
 

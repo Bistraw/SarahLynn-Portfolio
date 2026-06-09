@@ -41,7 +41,7 @@ export const projects: Project[] = [
     title: "Terreno a Hogar",
     category: "Diseño de Interiores",
     year: 2024,
-    location: "Santiago de Querétaro, Querétaro",
+    location: "Aguascalientes, Aguascalientes",
     description:
       "Transformación de una terreno en un loft residencial de concepto abierto.",
     details:
@@ -56,21 +56,23 @@ export const projects: Project[] = [
     area: "100 m²",
   },
   {
-    id: "casa-ceiba",
-    title: "Casa Ceiba",
+    id: "abada",
+    title: "Residencial Abada",
     category: "Dirección y Supervisión de Obra",
     year: 2022,
-    location: "Mérida, Yucatán",
+    location: "Aguascalientes, Aguascalientes",
     description:
-      "Casa tropical que reinterpreta la arquitectura vernácula yucateca con lenguaje contemporáneo.",
+      "Desarrollo residencial proyectado dentro de un entorno seguro, rodeado de arboles frutales y amenidades de gran clase; ubicado en la mejor zona de Aguascalientes, el nor-poniente de la ciudad.",
     details:
-      "Casa Ceiba rinde homenaje a la arquitectura tradicional maya con una reinterpretación moderna. Los muros de piedra caliza local y los techos con pendientes pronunciadas se combinan con concreto aparente y acero corten. Un patio central organiza la distribución y alberga una ceiba centenaria que da nombre al proyecto. El sistema de ventilación pasiva, inspirado en las haciendas henequeneras, elimina la necesidad de aire acondicionado durante 8 meses al año.",
+      "El proyecto integra dentro de su diseño amenidades como casa club, cancha de tenis, cancha de pasto sintético, alberca exterior y terraza, trotapista, kids playground, pet park, zona de asadores, fogatero y huerto urbano; todo pensado y diseñado para mejorar el nivel de vida de las personas y crear un ecosistema en armonía.",
     images: [
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1200&q=80",
+      "/images/abada/project-single-1.jpg",
+      "/images/abada/project-single-2.jpg",
+      "/images/abada/project-single-3.jpg",
+      "/images/abada/project-single-4.jpg",
+      "/images/abada/project-single-15.jpg",
     ],
-    area: "380 m²",
+    area: "112 m² por casa",
   },
   {
     id: "maqueta",

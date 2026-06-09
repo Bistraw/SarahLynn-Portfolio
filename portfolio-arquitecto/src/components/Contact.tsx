@@ -236,10 +236,15 @@ export default function Contact() {
             </div>
 
             {/* Map placeholder */}
-            <div className="aspect-[4/3] bg-zinc-100 flex items-center justify-center">
-              <p className="text-zinc-400 text-sm">
-                Mapa interactivo (Google Maps)
-              </p>
+            <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-sm">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118428.4415911378!2d-102.49068260192875!3d21.938825995073127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ef1b89b1ff81%3A0x5f74110a812d160f!2sGrupo%20Terrahome!5e0!3m2!1ses!2smx!4v1781025264636!5m2!1ses!2smx"
+                className="w-full h-full border-0"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Ubicación de Grupo Terrahome"
+              />
             </div>
           </motion.div>
         </div>

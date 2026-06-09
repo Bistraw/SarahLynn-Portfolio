@@ -24,7 +24,7 @@ export default function About() {
           >
             <div className="aspect-[3/4] bg-zinc-200 overflow-hidden">
               <img
-                src="/images/arch/marco_antonio_escobedo.jpeg"
+                src="/images/arch/marco_antonio_escobedo - copia.jpeg"
                 alt="Marco Antonio Escobedo González - Arquitecto"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -48,7 +48,7 @@ export default function About() {
               Marco <span className="font-semibold">Antonio</span>
             </h2>
 
-            <div className="space-y-4 text-zinc-600 leading-relaxed mb-10">
+            <div className="space-y-4 text-zinc-600 leading-relaxed text-justify mb-10">
               <p>
                 Arquitecto titulado por el Instituto Tecnológico de Zacatecas, 
                 con más de 20 años de experiencia en el desarrollo, gestión y 

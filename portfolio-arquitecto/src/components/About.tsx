@@ -87,7 +87,7 @@ export default function About() {
             {/* Stats */}
             <div className="flex gap-12 mt-10 pt-8 border-t border-zinc-200">
               {[
-                { value: "15+", label: "Años de experiencia" },
+                { value: "20+", label: "Años de experiencia" },
                 { value: "60+", label: "Proyectos realizados" },
               ].map((stat) => (
                 <div key={stat.label}>

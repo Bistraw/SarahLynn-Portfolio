@@ -10,13 +10,28 @@ export default function Footer() {
 
           {/* Social links */}
           <div className="flex items-center gap-6">
-            {["Instagram", "Pinterest", "LinkedIn"].map((social) => (
+            {[
+              {
+                name: "Instagram",
+                url: "https://www.linkedin.com/in/marco-antonio-escobedo-gonz%C3%A1lez-b17745196/",
+              },
+              {
+                name: "Pinterest",
+                url: "https://www.linkedin.com/in/marco-antonio-escobedo-gonz%C3%A1lez-b17745196/",
+              },
+              {
+                name: "LinkedIn",
+                url: "https://www.linkedin.com/in/marco-antonio-escobedo-gonz%C3%A1lez-b17745196/",
+              },
+            ].map((social) => (
               <a
-                key={social}
-                href="#"
+                key={social.name}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-xs tracking-wider uppercase text-zinc-400 hover:text-white transition-colors"
               >
-                {social}
+                {social.name}
               </a>
             ))}
           </div>
